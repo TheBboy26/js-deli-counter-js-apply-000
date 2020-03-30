@@ -9,6 +9,11 @@ function takeANumber() {
   
 }// this is the welcome message that people will be greeted by. This will include the persons name and //give them a number (in which their in line with)
 console.log(takeANumber())
+console.log(takeANumber())
+console.log(takeANumber())
+
+
+
 
 function currentLine(NewLine) {
     var line = []
