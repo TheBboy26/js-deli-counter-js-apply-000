@@ -1,12 +1,14 @@
 var katzDeliLine = [];
 
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(name)
-  return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
+var num = 1 
+
+function takeANumber() {
+   num++
+  return   "you are number:" + num ;
   
   
 }// this is the welcome message that people will be greeted by. This will include the persons name and //give them a number (in which their in line with)
-
+console.log(takeANumber())
 
 function currentLine(NewLine) {
     var line = []
