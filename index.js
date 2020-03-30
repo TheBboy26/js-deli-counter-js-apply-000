@@ -1,6 +1,6 @@
 var katzDeliLine = [];
 
-var num = 1 
+var num = 0 
 
 function takeANumber() {
    num++
